@@ -1,0 +1,13 @@
+# Update miniconda
+conda update conda --all
+conda info
+
+# Create repo
+git clone https://github.com/mcorne/test-astronomical-python.git
+
+# Create env in (default) c:\users\michel\miniconda3\envs\astropython
+# https://doi.org/10.1088/2514-3433/acfa9a
+# Get environment.yml from Supplementary material tab
+conda env create -f .\environment.yml
+conda activate astropython
+conda deactivate

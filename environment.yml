@@ -1,0 +1,21 @@
+name: astropython
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - scipy
+  - astropy
+  - matplotlib
+  - pandas
+  - ipython
+  - jupyterlab
+  - emcee
+  - photutils
+  - scikit-learn
+  - h5py
+  - asdf
+  - astroquery
+  - pip:
+      - jupyterlab-myst==2.1.0
+
