@@ -11,3 +11,12 @@ git clone https://github.com/mcorne/test-astronomical-python.git
 conda env create -f .\environment.yml
 conda activate astropython
 conda deactivate
+
+# Download data from https://zenodo.org/records/10732223
+# Extract and copy main subdirectories in data
+# Install and setup Git LFS
+git lfs install
+cd C:\Data\vscode\test-astronomical-python
+git lfs track "data/**"
+git add .gitattributes
+git commit -m "Track data files with Git LFS"
