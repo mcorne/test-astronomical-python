@@ -12,6 +12,9 @@ conda env create -f .\environment.yml
 conda activate astropython
 conda deactivate
 
+# Start astropython kernel to run *.ipynb files
+# Click on icon in top right corner in Vscode
+
 # Download data from https://zenodo.org/records/10732223
 # Extract and copy main subdirectories in data
 # Install and setup Git LFS
