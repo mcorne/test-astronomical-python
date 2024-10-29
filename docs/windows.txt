@@ -11,6 +11,7 @@ git clone https://github.com/mcorne/test-astronomical-python.git
 conda env create -f .\environment.yml
 conda activate astropython
 conda deactivate
+conda install pytest
 
 # Start astropython kernel to run *.ipynb files
 # Click on icon in top right corner in Vscode
